@@ -19,5 +19,6 @@ const IsEvenOROdd = (number) => {
         return "Please enter a valid number.";
     }
 }
+
 console.log(IsEvenOROdd(11))
 
