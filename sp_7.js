@@ -35,3 +35,4 @@ function pyramid(rows) {
 console.log(pyramid(5))
 console.log(pyramid(10))
 console.log(pyramid(15))
+
