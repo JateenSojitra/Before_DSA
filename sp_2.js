@@ -25,6 +25,6 @@ const isPrime =(number)=> {
   }
   
   // Test the function
-  const input = 116; // Replace with any number
+  const input = 4; // Replace with any number
   console.log(isPrime(input));
 
