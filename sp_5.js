@@ -15,7 +15,7 @@ const series = new Array(number);
   for (let i = 2; i < number; i++) {
     series[i] = series[i - 1] + series[i - 2];
   }
-
   return series;
 }
 console.log(Fibonacci(10));
+Fibonacci(10);
