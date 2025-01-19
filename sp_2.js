@@ -16,6 +16,7 @@ const isPrime =(number)=> {
   
     // Check for divisors from 2 to the square root of the number
     for (let i = 2; i * i <= number; i++) {
+      console.log(i)
       if (number % i === 0) {
         return number + " is not a prime number.";
       }
