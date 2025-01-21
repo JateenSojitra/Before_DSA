@@ -1,21 +1,21 @@
+// Alice and Bob each created one problem for HackerRank. compareTriplets
+
 function compareTriplets(a, b) {
     let pointsarry = [] ;
-    let aspoints = []
-    let bspoints = []
+    let aspoints = 0
+    let bspoints = 0
     for(let i = 0 ; i < a.length; i++){
-        console.log("i" , i)
-        for(let j = 0 ; j < b.length ; j++){
-            console.log("j" , j)
-            if(a[i] > b[j]){
-             aspoints.push(1)   
-            }
-            else if(a[i] < b[j]) {
-              bspoints.push(1)  
-            }
+        if(a[i] > b[i]){
+            aspoints += 1 
+        }
+        else if(a[i] < b[i]) {
+            bspoints += 1  
         }
     }
-    console.log(aspoints , bspoints)
+    pointsarry = [aspoints , bspoints]
+    return pointsarry
 }
 let a  = [17 ,28, 30]
 let b  = [99 ,16 , 8]
-compareTriplets(a,b)
+let value = compareTriplets(a,b)
+console.log("🐒 ~ file: sp_26.js:21 ~ value:", value)
