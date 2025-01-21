@@ -19,8 +19,8 @@ const findDuplicates = (nums) => {
     }
     
     // return result;
-    return result.length > 0 ? Math.min(...result) : null; // Return null if no duplicates
+    return result.length > 0 ? Math.min(...result) : null; 
 };
 
-const nums = [4, 3, 2, 7, 8, 2, 3, 1 , 1 , 1 ,2 , 2];
+const nums = [1 , 2 , 3 , 4 , 5 , 4 , 3 , 2 , 1 , 3 , 4];
 console.log(findDuplicates(nums))
