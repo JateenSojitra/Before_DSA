@@ -18,8 +18,8 @@ const findDuplicates = (nums) => {
         console.log("nums" , nums)
     }
     
-    // return result;
-    return result.length > 0 ? Math.min(...result) : null; 
+    return result;
+    // return result.length > 0 ? Math.min(...result) : null; 
 };
 
 const nums = [1 , 2 , 3 , 4 , 5 , 4 , 3 , 2 , 1 , 3 , 4];
